@@ -1,0 +1,67 @@
+.texto{
+    font-family:Arial;
+}
+.subtitulos{
+    font-family:Arial, Helvetica, sans-serif
+}
+iframe{
+    width: 100%;
+}
+.caja{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+    text-align: center;
+}
+.caja_informacion{
+    color: white;
+    background-color: rgb(247, 0, 255);
+}
+nav{
+    display: inline-block;
+    padding: 0px 20px;
+}
+a{
+    color: black;
+    text-decoration: black;
+}
+a:hover{
+    border: 1px solid #ffffff; 
+        padding: 10px; 
+        background-color: #b1da0b; 
+        color: #ffffff; 
+        font-family:Arial; 
+        border-radius: 7px; 
+    color:white;
+}
+.btn{    
+    
+    border: 1px solid #ffffff; 
+        padding: 10px; 
+        background-color: #000000; 
+        color: #ffffff;
+        font-family:Arial; 
+        border-radius: 0px; 
+}
+.btn:hover{
+    border: 1px solid #ffffff; 
+        padding: 10px; 
+        background-color: #eaff00; 
+        color: #ffffff; 
+        font-family:Arial; 
+        border-radius: 7px; 
+    color:rgb(0, 0, 0);
+}
+menu{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+}
+.titulo_producto{
+    color: rgb(0, 0, 0);
+    background-color: #eaff00;
+    font-family:Arial;
+}
